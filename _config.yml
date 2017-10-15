@@ -1,9 +1,9 @@
-url: http://kirbyt.github.io
-baseurl: /timeline-jekyll-theme
+url: 170.20.0.1
+baseurl:
 
 # Site Settings
-title: Timeline
-description: "Timeline is multipurpose, single page Jekyll theme that includes a timeline section."
+title: Your Physical E-Card
+description: ""
 keywords: "jekyll, theme"
 google-tracking-id:
 
