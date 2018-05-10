@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ebd4ca;
+}
+
+.container {
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 3rem;
+}
+
+.google-home .lens-hire {
+    min-height: 80vh;
+    
+}
+.google-home {
+  background-image: url("https://media.flixfacts.com/inpage/google/v2/img/home_mini/Hero-Banner2.jpg");
+  background-size: cover;
+  min-height: 80vh;
+}
+
+.lens-hire {
+  background-image: url("https://www.canon.com.au/-/media/images/canon/products/ef-70-200mm-f-2-8l-is-ii-usm/ef-70-200mm-f-2,-d-,8l-is-ii-usm-hero.ashx?mw=1200&hash=D128CED82FFF3D4977B6D57F3AB77A994F2232C9");
+  background-size: contain;
+  background-position-y: 100px;
+  background-position: fixed;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  background-color: white;
+  border-left: 10px solid rgb(153, 153, 153);
+}
+
+.bottom {
+  min-height: 20vh;
+  text-align: center;
+}
+
+.bottom:last-of-type {
+  border-left: 10px solid rgb(153, 153, 153);
+}
