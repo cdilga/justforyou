@@ -5,11 +5,19 @@
 }
 
 body {
-  background-color: #ebd4ca;
+  background-color: #c9704a;
+  background-image: url('/img/teeth.png');
+  background-attachment: fixed;
+  background-size: cover;
+  color: #2e2a1d !important;
+}
+
+.thing {
+  min-height: 600px !important;
 }
 
 .container {
-  color: #333;
+  color:#2e2a1d;
   text-align: center;
 }
 
@@ -41,7 +49,7 @@ li span {
 }
 
 .lens-hire {
-  background-image: url("https://www.canon.com.au/-/media/images/canon/products/ef-70-200mm-f-2-8l-is-ii-usm/ef-70-200mm-f-2,-d-,8l-is-ii-usm-hero.ashx?mw=1200&hash=D128CED82FFF3D4977B6D57F3AB77A994F2232C9");
+  background-image: url("https://www.adorama.com/images/Large/ca5018afu.jpg");
   background-size: contain;
   background-position-y: 100px;
   background-position: fixed;
@@ -49,7 +57,7 @@ li span {
   background-repeat: no-repeat;
   min-height: 80vh;
   background-color: white;
-  border-left: 10px solid rgb(153, 153, 153);
+  border-left: 10px solid #b79a89;
 }
 
 .bottom {
@@ -58,5 +66,24 @@ li span {
 }
 
 .bottom:last-of-type {
-  border-left: 10px solid rgb(153, 153, 153);
+  border-left: 10px solid rgb(255, 237, 214);
+}
+
+.disp-bg {
+  min-height: 100vh;
+  background: transparent;
+}
+
+.roos {
+  
+}
+
+.blur {
+  filter: blur(50px);
+  background-image: url('/img/teeth.png');
+  background-attachment: fixed;
+  background-size: cover;
+  min-height:350px;
+  margin-bottom: -350px;
+  z-index: -5;
 }
