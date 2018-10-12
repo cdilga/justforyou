@@ -1,81 +1,45 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 body {
-  background-color: #c9704a;
-  background-image: url('/img/teeth.png');
+  background-image: url('/img/feature.JPG');
   background-attachment: fixed;
   background-size: cover;
   color: #2e2a1d !important;
 }
 
-.thing {
-  min-height: 600px !important;
+.announce {
+  font-size: 4em;
 }
 
-.container {
-  color:#2e2a1d;
-  text-align: center;
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-500 { font-size: 8em; }
+.filler {
+  height: 50vh;
 }
 
 h1 {
   font-weight: normal;
 }
 
+p {
+    font-size: 1.2em;
+  list-style-type: none;
+  padding: 0.8em;
+  text-transform: uppercase;
+}
 li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1.2em;
   list-style-type: none;
-  padding: 1em;
+  padding: 0.8em;
   text-transform: uppercase;
 }
 
 li span {
   display: block;
-  font-size: 3rem;
-}
-
-.google-home .lens-hire {
-    min-height: 80vh;
-    
-}
-.google-home {
-  background-image: url("https://media.flixfacts.com/inpage/google/v2/img/home_mini/Hero-Banner2.jpg");
-  background-size: cover;
-  min-height: 80vh;
-}
-
-.lens-hire {
-  background-image: url("https://www.adorama.com/images/Large/ca5018afu.jpg");
-  background-size: contain;
-  background-position-y: 100px;
-  background-position: fixed;
-  background-position-x: center;
-  background-repeat: no-repeat;
-  min-height: 80vh;
-  background-color: white;
-  border-left: 10px solid #b79a89;
-}
-
-.bottom {
-  min-height: 20vh;
-  text-align: center;
-}
-
-.bottom:last-of-type {
-  border-left: 10px solid rgb(255, 237, 214);
-}
-
-.disp-bg {
-  min-height: 100vh;
-  background: transparent;
-}
-
-.roos {
-  
+  font-size: 1.2rem;
 }
 
 .blur {
